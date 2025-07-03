@@ -1,4 +1,3 @@
-// src/main.ts
 import { Amount } from "./domain/valueObjects/Amount";
 import { Payment } from "./domain/entities/Payment";
 import { CreditCardProcessor } from "./infrastructure/payment/CreditCardProcessor";

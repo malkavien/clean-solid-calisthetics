@@ -1,4 +1,3 @@
-// src/domain/entities/Payment.ts
 import { Amount } from "../valueObjects/Amount";
 
 export class Payment {
@@ -6,5 +5,9 @@ export class Payment {
 
   isHighValue(): boolean {
     return this.amount.isGreaterThan(1000);
+  }
+
+  getAmountValue(): number {
+    return this.amount.getValue();
   }
 }

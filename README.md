@@ -20,3 +20,18 @@ Este projeto foi criado para demonstrar como aplicar boas práticas em projetos 
 npm install
 ts-node src/main.ts
 ```
+
+
+## Banco de Dados com Sequelize + PostgreSQL
+
+Configure seu banco PostgreSQL local com:
+
+- Banco: `clean_db`
+- Usuário: `user`
+- Senha: `password`
+
+### Rodar exemplo com banco:
+
+```bash
+npm run db
+```

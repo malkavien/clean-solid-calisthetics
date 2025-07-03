@@ -1,4 +1,3 @@
-// src/infrastructure/payment/CreditCardProcessor.ts
 import { PaymentProcessor } from "../../application/ports/PaymentProcessor";
 
 export class CreditCardProcessor implements PaymentProcessor {

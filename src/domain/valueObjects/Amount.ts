@@ -1,4 +1,3 @@
-// src/domain/valueObjects/Amount.ts
 export class Amount {
   constructor(private readonly value: number) {
     if (value <= 0) throw new Error('Valor inválido');

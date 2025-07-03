@@ -4,7 +4,12 @@
   "type": "module",
   "scripts": {
     "start": "ts-node src/main.ts",
+    "db": "ts-node src/main-db.ts",
     "test": "jest"
+  },
+  "dependencies": {
+    "sequelize": "^6.35.0",
+    "pg": "^8.10.0"
   },
   "devDependencies": {
     "jest": "^29.0.0",
